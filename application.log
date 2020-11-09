@@ -1,0 +1,8 @@
+2020-11-09 12:53:45,680  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome
+2020-11-09 12:53:53,584  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
+2020-11-09 12:53:55,737  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - entering text: Selenium
+2020-11-09 12:53:55,862  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - pressing enter key
+2020-11-09 12:53:57,678  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - waiting for 2 second
+2020-11-09 12:53:59,728  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - verifying page title
+2020-11-09 12:53:59,735  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] VerificationManager:251 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2020-11-09 12:54:00,784 ERROR [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
