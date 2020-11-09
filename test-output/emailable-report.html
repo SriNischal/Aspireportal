@@ -8,11 +8,17 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Falcon-Sample-WIN_10_chrome_84</th></tr>
-<tr><td><a href="#t0">SampleTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">14,933</td><td></td><td></td></tr>
+<tr><th colspan="7">Falcon-Sample-WIN_10_chrome_86</th></tr>
+<tr><td><a href="#t0">SampleTest</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">31,097</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Falcon-Sample-WIN_10_chrome_84</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SampleTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.atmecs.automationAspireportal.testscript.SampleTestScript</td><td><a href="#m0">sampleTest</a></td><td rowspan="1">1604906625680</td><td rowspan="1">14055</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Falcon-Sample-WIN_10_chrome_86</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SampleTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.atmecs.automationAspireportal.testscript.TC01_LoginPage</td><td><a href="#m0">LoginPage</a></td><td rowspan="1">1604911140592</td><td rowspan="1">12129</td></tr></tbody>
 </table>
-<h2>SampleTest</h2><h3 id="m0">com.atmecs.automationAspireportal.testscript.SampleTestScript#sampleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>WIN</td><td>10</td><td>chrome</td><td>84</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages">Opening browser: chrome<br/>Maximizing browser window<br/>entering text: Selenium<br/>pressing enter key<br/>waiting for 2 second<br/>verifying page title<br/>PASS : Verifying String Message  : ACTUAL : Selenium - Google Search 	EXPECTED :Selenium - Google Search</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SampleTest</h2><h3 id="m0">com.atmecs.automationAspireportal.testscript.TC01_LoginPage#LoginPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Successfully entered Email<br/>Successfully entered Password<br/>Successfully clicked on login button<br/>No such element found with xpath //span[@class="logo-text"]<br/>FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details<br/>IMG : ed7f2d5f-d671-4da4-a10c-ee21a886ac46</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.atmecs.aspireportalAutomation.utils.Pageactions.sendKeys(Pageactions.java:114)
+	at com.atmecs.automationAspireportal.testscript.TC01_LoginPage.LoginPage(TC01_LoginPage.java:43)
+	at com.atmecs.automationAspireportal.runner.TestNGRunner.main(TestNGRunner.java:61)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,8 +1,13 @@
-2020-11-09 12:53:45,680  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome
-2020-11-09 12:53:53,584  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
-2020-11-09 12:53:55,737  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - entering text: Selenium
-2020-11-09 12:53:55,862  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - pressing enter key
-2020-11-09 12:53:57,678  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - waiting for 2 second
-2020-11-09 12:53:59,728  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - verifying page title
-2020-11-09 12:53:59,735  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] VerificationManager:251 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
-2020-11-09 12:54:00,784 ERROR [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
+2020-11-09 14:08:43,256  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome
+2020-11-09 14:08:58,451  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
+2020-11-09 14:09:01,422  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#1: Entering the Email
+2020-11-09 14:09:01,542  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully entered Email
+2020-11-09 14:09:01,542  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#2: Entering the Password
+2020-11-09 14:09:01,655  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully entered Password
+2020-11-09 14:09:04,656  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#3: Click on Login button
+2020-11-09 14:09:04,667  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully clicked on login button
+2020-11-09 14:09:07,668  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#4: Validating the login text
+2020-11-09 14:09:12,720 DEBUG [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] Find:164 - Element not found with xpath //span[@class="logo-text"]
+2020-11-09 14:09:13,119  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] CustomListener:130 - Screenshot Captured for failure C:\Users\srinischal.thiparani\AspirePortalAutomation\automationAspireportal\target\Falcon-Sample-WIN_10_chrome_86\Screenshots\LoginPage_1_.png
+2020-11-09 14:09:13,120  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] CustomListener:51 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-11-09 14:09:14,792  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] TestNGRunner:51 - Response : {"status":"Success","message":"Upload successfully done"}

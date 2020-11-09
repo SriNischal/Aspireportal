@@ -11,10 +11,10 @@ import com.atmecs.falcon.automation.util.reporter.ReportLogService;
 import com.atmecs.falcon.automation.util.reporter.ReportLogServiceImpl;
 import com.atmecs.automationAspireportal.constant.FilePathConstants;
 import com.atmecs.automationAspireportal.constant.LocatorKeyContainer;
-import com.atmecs.automationAspireportal.testsuite.SampleTestSuiteBase;
+import com.atmecs.automationAspireportal.testsuite.TestSuiteBase;
 import com.atmecs.locatorSmartFixTool.models.SmartFixPageFileHandler;
 
-public class AtmecsContactUsTest extends SampleTestSuiteBase {
+public class AtmecsContactUsTest extends TestSuiteBase {
 	private ReportLogService report = new ReportLogServiceImpl(AtmecsContactUsTest.class);
 	
 	String url = "http://www.atmecs.com/";

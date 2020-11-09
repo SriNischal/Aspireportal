@@ -3,14 +3,14 @@ package com.atmecs.automationAspireportal.testscript;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.atmecs.automationAspireportal.testsuite.TestSuiteBase;
 import com.atmecs.falcon.automation.ui.selenium.Verify;
 import com.atmecs.falcon.automation.ui.seleniuminterfaces.IKeys.KeyType;
 import com.atmecs.falcon.automation.util.enums.LocatorType;
 import com.atmecs.falcon.automation.util.reporter.ReportLogService;
 import com.atmecs.falcon.automation.util.reporter.ReportLogServiceImpl;
-import com.atmecs.automationAspireportal.testsuite.SampleTestSuiteBase;
 
-public class SampleTestScript extends SampleTestSuiteBase{
+public class SampleTestScript extends TestSuiteBase{
 	
 	private ReportLogService report = new ReportLogServiceImpl(SampleTestScript.class);
 	
