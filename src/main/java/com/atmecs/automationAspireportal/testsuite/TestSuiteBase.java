@@ -4,9 +4,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
-import com.atmecs.aspireportalAutomation.utils.LoadProperties;
 import com.atmecs.automationAspireportal.constant.ProjectBaseConstantPaths;
 import com.atmecs.automationAspireportal.testscript.SampleTestScript;
+import com.atmecs.automationAspireportal.utils.LoadProperties;
 import com.atmecs.falcon.automation.ui.selenium.Browser;
 import com.atmecs.falcon.automation.util.logging.LogLevel;
 import com.atmecs.falcon.automation.util.logging.LogManager;

@@ -1,13 +1,38 @@
-2020-11-09 14:08:43,256  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome
-2020-11-09 14:08:58,451  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
-2020-11-09 14:09:01,422  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#1: Entering the Email
-2020-11-09 14:09:01,542  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully entered Email
-2020-11-09 14:09:01,542  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#2: Entering the Password
-2020-11-09 14:09:01,655  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully entered Password
-2020-11-09 14:09:04,656  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#3: Click on Login button
-2020-11-09 14:09:04,667  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully clicked on login button
-2020-11-09 14:09:07,668  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#4: Validating the login text
-2020-11-09 14:09:12,720 DEBUG [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] Find:164 - Element not found with xpath //span[@class="logo-text"]
-2020-11-09 14:09:13,119  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] CustomListener:130 - Screenshot Captured for failure C:\Users\srinischal.thiparani\AspirePortalAutomation\automationAspireportal\target\Falcon-Sample-WIN_10_chrome_86\Screenshots\LoginPage_1_.png
-2020-11-09 14:09:13,120  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] CustomListener:51 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
-2020-11-09 14:09:14,792  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] TestNGRunner:51 - Response : {"status":"Success","message":"Upload successfully done"}
+2020-11-09 22:01:13,353  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome
+2020-11-09 22:01:28,001  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
+2020-11-09 22:01:31,103  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#1: Entering the Email
+2020-11-09 22:01:31,232  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully entered Email
+2020-11-09 22:01:31,233  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#2: Entering the Password
+2020-11-09 22:01:31,323  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully entered Password
+2020-11-09 22:01:31,323  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#3: Click on Login button
+2020-11-09 22:01:48,330  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully clicked on login button
+2020-11-09 22:01:48,331  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#4: Clicking on the Timesheet
+2020-11-09 22:02:16,872  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully clicked on the Timesheet
+2020-11-09 22:02:16,873  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#5: Validating the Breadcrum
+2020-11-09 22:02:17,220  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] VerificationManager:251 - PASS : Successfully validated the text Actual value : Timesheet Create or Update Timings is same as Expected value: Timesheet Create or Update Timings
+2020-11-09 22:02:17,221  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully validated breadcrum
+2020-11-09 22:02:17,980  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#6: Selecting the activity
+2020-11-09 22:02:18,165  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully selected on Select Activity
+2020-11-09 22:02:18,165  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#7: Entering hours to the days
+2020-11-09 22:02:18,489  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully Entered mon value
+2020-11-09 22:02:18,663  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully Entered tue value
+2020-11-09 22:02:18,825  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully Entered wed value
+2020-11-09 22:02:18,968  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully Entered thu value
+2020-11-09 22:02:19,113  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully Entered fri value
+2020-11-09 22:02:19,114  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#8: Add Notes
+2020-11-09 22:02:19,368  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] VerificationManager:251 - PASS : Validating the tooltip message is same as expected or not Actual value : Notes is same as Expected value: Notes
+2020-11-09 22:02:19,369  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully validated notes
+2020-11-09 22:02:19,512  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully Entered notes value
+2020-11-09 22:02:19,512  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#9: Add Activity
+2020-11-09 22:02:19,741  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] VerificationManager:251 - PASS : Validating the tooltip message is same as expected or not Actual value : Notes is same as Expected value: Notes
+2020-11-09 22:02:19,742  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully validated add activity
+2020-11-09 22:02:19,847  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully clicked on add activity
+2020-11-09 22:02:19,847  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#10: Selecting the second activity
+2020-11-09 22:02:19,977  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] SampleTestScript:51 - Successfully selected Activity
+2020-11-09 22:02:19,978  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - STEP#11: Delete Activity
+2020-11-09 22:02:25,017 DEBUG [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] Find:164 - Element not found with xpath //button[@class="removefield btn btn-sm btn-danger "]
+2020-11-09 22:02:25,017  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] LogReport:29 - element is not displayed and enable to mouse hover
+2020-11-09 22:02:30,047 DEBUG [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] Find:164 - Element not found with xpath //div[@class="tooltip-inner"]
+2020-11-09 22:02:30,417  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] CustomListener:130 - Screenshot Captured for failure C:\Users\srinischal.thiparani\AspirePortalAutomation\automationAspireportal\target\Falcon-Sample-WIN_10_chrome_86\Screenshots\EmployeePage_1_.png
+2020-11-09 22:02:30,418  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] CustomListener:51 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-11-09 22:02:31,752  INFO [com.atmecs.automationAspireportal.runner.TestNGRunner.main()] TestNGRunner:51 - Response : {"status":"Success","message":"Upload successfully done"}

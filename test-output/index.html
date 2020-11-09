@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Falcon-Sample-WIN_10_chrome_86" class="navigator-link ">
-                    <span>C:\Users\srinischal.thiparani\AspirePortalAutomation\automationAspireportal\src\main\resources\suitefile\loginpage.xml</span>
+                    <span>C:\Users\srinischal.thiparani\AspirePortalAutomation\automationAspireportal\src\main\resources\suitefile\employeepage.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Falcon-Sample-WIN_10_chrome_86">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_86" title="com.atmecs.automationAspireportal.testscript.TC01_LoginPage" class="method navigator-link" hash-for-method="LoginPage">LoginPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_86" title="com.atmecs.automationAspireportal.testscript.TC01_EmployeePage" class="method navigator-link" hash-for-method="EmployeePage">EmployeePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Falcon-Sample-WIN_10_chrome_86 -->
@@ -120,17 +120,17 @@
           <div class="suite-Falcon-Sample-WIN_10_chrome_86-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.atmecs.automationAspireportal.testscript.TC01_LoginPage</span>
+              <span class="class-name">com.atmecs.automationAspireportal.testscript.TC01_EmployeePage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginPage">
-                  </a> <!-- LoginPage -->
-                  <span class="method-name">LoginPage</span>
+                  <a name="EmployeePage">
+                  </a> <!-- EmployeePage -->
+                  <span class="method-name">EmployeePage</span>
                   <div class="stack-trace">java.lang.NullPointerException
-	at com.atmecs.aspireportalAutomation.utils.Pageactions.sendKeys(Pageactions.java:114)
-	at com.atmecs.automationAspireportal.testscript.TC01_LoginPage.LoginPage(TC01_LoginPage.java:43)
+	at com.atmecs.automationAspireportal.utils.Pageactions.getText(Pageactions.java:119)
+	at com.atmecs.automationAspireportal.testscript.TC01_EmployeePage.EmployeePage(TC01_EmployeePage.java:91)
 	at com.atmecs.automationAspireportal.runner.TestNGRunner.main(TestNGRunner.java:61)
 	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
 	at java.base/java.lang.Thread.run(Thread.java:830)
@@ -143,7 +143,7 @@
         </div> <!-- panel Falcon-Sample-WIN_10_chrome_86 -->
         <div panel-name="test-xml-Falcon-Sample-WIN_10_chrome_86" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\srinischal.thiparani\AspirePortalAutomation\automationAspireportal\src\main\resources\suitefile\loginpage.xml</span>
+            <span class="header-content">C:\Users\srinischal.thiparani\AspirePortalAutomation\automationAspireportal\src\main\resources\suitefile\employeepage.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +156,7 @@
   &lt;parameter name=&quot;browserVersion&quot; value=&quot;86&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;SampleTest&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.atmecs.automationAspireportal.testscript.TC01_LoginPage&quot;/&gt;
+      &lt;class name=&quot;com.atmecs.automationAspireportal.testscript.TC01_EmployeePage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- SampleTest --&gt;
 &lt;/suite&gt; &lt;!-- Falcon-Sample-WIN_10_chrome_86 --&gt;
@@ -198,14 +198,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginPage')
-data.setCell(0, 2, 'com.atmecs.automationAspireportal.testscript.TC01_LoginPage')
-data.setCell(0, 3, 12129);
+data.setCell(0, 1, 'EmployeePage')
+data.setCell(0, 2, 'com.atmecs.automationAspireportal.testscript.TC01_EmployeePage')
+data.setCell(0, 3, 59879);
 window.suiteTableData['Falcon-Sample-WIN_10_chrome_86']= { tableData: data, tableDiv: 'times-div-Falcon-Sample-WIN_10_chrome_86'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Falcon-Sample-WIN_10_chrome_86">
               </div> <!-- times-div-Falcon-Sample-WIN_10_chrome_86 -->
             </div> <!-- times-div -->
@@ -217,14 +217,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginPage</span>
+              <span class="reporter-method-name">EmployeePage</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Successfully entered Email</span>
                 <span class="reporter-method-output">Successfully entered Password</span>
                 <span class="reporter-method-output">Successfully clicked on login button</span>
-                <span class="reporter-method-output">No such element found with xpath //span[@class="logo-text"]</span>
+                <span class="reporter-method-output">Successfully clicked on the Timesheet</span>
+                <span class="reporter-method-output">PASS : Successfully validated the text : ACTUAL : Timesheet Create or Update Timings 	EXPECTED :Timesheet Create or Update Timings</span>
+                <span class="reporter-method-output">Successfully validated breadcrum</span>
+                <span class="reporter-method-output">Successfully selected on Select Activity</span>
+                <span class="reporter-method-output">Successfully Entered mon value</span>
+                <span class="reporter-method-output">Successfully Entered tue value</span>
+                <span class="reporter-method-output">Successfully Entered wed value</span>
+                <span class="reporter-method-output">Successfully Entered thu value</span>
+                <span class="reporter-method-output">Successfully Entered fri value</span>
+                <span class="reporter-method-output">PASS : Validating the tooltip message is same as expected or not : ACTUAL : Notes 	EXPECTED :Notes</span>
+                <span class="reporter-method-output">Successfully validated notes</span>
+                <span class="reporter-method-output">Successfully Entered notes value</span>
+                <span class="reporter-method-output">PASS : Validating the tooltip message is same as expected or not : ACTUAL : Notes 	EXPECTED :Notes</span>
+                <span class="reporter-method-output">Successfully validated add activity</span>
+                <span class="reporter-method-output">Successfully clicked on add activity</span>
+                <span class="reporter-method-output">Successfully selected Activity</span>
+                <span class="reporter-method-output">No such element found with xpath //button[@class="removefield btn btn-sm btn-danger "]</span>
+                <span class="reporter-method-output">No such element found with xpath //div[@class="tooltip-inner"]</span>
                 <span class="reporter-method-output">FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details</span>
-                <span class="reporter-method-output">IMG : ed7f2d5f-d671-4da4-a10c-ee21a886ac46</span>
+                <span class="reporter-method-output">IMG : 2f28ac95-2c53-4332-8d62-cfd826b3c796</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,7 +259,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.atmecs.automationAspireportal.testscript.TC01_LoginPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.atmecs.automationAspireportal.testscript.TC01_EmployeePage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">preSetup(WIN, 10, chrome, 86)</span>
                 <span class="method-start">0 ms</span>
@@ -250,12 +267,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">LoginPage</span>
-                <span class="method-start">17437 ms</span>
+                <span class="method-name">EmployeePage</span>
+                <span class="method-start">16932 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">30631 ms</span>
+                <span class="method-start">77579 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -5,7 +5,7 @@
       <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
     </line>
     <line>
-      <![CDATA[INFO: The value found with Environment Module variable loginpage is: loginpage]]>
+      <![CDATA[INFO: The value found with Environment Module variable employeepage is: employeepage]]>
     </line>
     <line>
       <![CDATA[The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86]]>
@@ -15,7 +15,7 @@
 ]]>
     </line>
     <line>
-      <![CDATA[INFO: Modules Selected: [loginpage]
+      <![CDATA[INFO: Modules Selected: [employeepage]
 ]]>
     </line>
     <line>
@@ -31,7 +31,7 @@
   <parameter name="browserVersion" value="86"/>
   <test thread-count="5" name="SampleTest">
     <classes>
-      <class name="com.atmecs.automationAspireportal.testscript.TC01_LoginPage"/>
+      <class name="com.atmecs.automationAspireportal.testscript.TC01_EmployeePage"/>
     </classes>
   </test> <!-- SampleTest -->
 </suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
@@ -53,21 +53,72 @@
       <![CDATA[Successfully clicked on login button]]>
     </line>
     <line>
-      <![CDATA[No such element found with xpath //span[@class="logo-text"]]]>
+      <![CDATA[Successfully clicked on the Timesheet]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Successfully validated the text : ACTUAL : Timesheet Create or Update Timings EXPECTED :Timesheet Create or Update Timings]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated breadcrum]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected on Select Activity]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Entered mon value]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Entered tue value]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Entered wed value]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Entered thu value]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Entered fri value]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Notes EXPECTED :Notes]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated notes]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Entered notes value]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Notes EXPECTED :Notes]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated add activity]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked on add activity]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected Activity]]>
+    </line>
+    <line>
+      <![CDATA[No such element found with xpath //button[@class="removefield btn btn-sm btn-danger "]]]>
+    </line>
+    <line>
+      <![CDATA[No such element found with xpath //div[@class="tooltip-inner"]]]>
     </line>
     <line>
       <![CDATA[FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details]]>
     </line>
     <line>
-      <![CDATA[IMG : ed7f2d5f-d671-4da4-a10c-ee21a886ac46]]>
+      <![CDATA[IMG : 2f28ac95-2c53-4332-8d62-cfd826b3c796]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-11-09T08:38:43Z" name="Falcon-Sample-WIN_10_chrome_86" finished-at="2020-11-09T08:39:14Z" duration-ms="31097">
+  <suite started-at="2020-11-09T16:31:13Z" name="Falcon-Sample-WIN_10_chrome_86" finished-at="2020-11-09T16:32:31Z" duration-ms="77975">
     <groups>
     </groups>
-    <test started-at="2020-11-09T08:38:43Z" name="SampleTest" finished-at="2020-11-09T08:39:14Z" duration-ms="31097">
-      <class name="com.atmecs.automationAspireportal.testscript.TC01_LoginPage">
-        <test-method is-config="true" signature="preSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC01_LoginPage@6216694e]" started-at="2020-11-09T08:38:43Z" name="preSetup" finished-at="2020-11-09T08:39:00Z" duration-ms="17436" status="PASS">
+    <test started-at="2020-11-09T16:31:13Z" name="SampleTest" finished-at="2020-11-09T16:32:31Z" duration-ms="77975">
+      <class name="com.atmecs.automationAspireportal.testscript.TC01_EmployeePage">
+        <test-method is-config="true" signature="preSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC01_EmployeePage@30e619df]" started-at="2020-11-09T16:31:13Z" name="preSetup" finished-at="2020-11-09T16:31:30Z" duration-ms="16932" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,12 +150,12 @@
             </line>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="LoginPage()[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC01_LoginPage@6216694e]" started-at="2020-11-09T08:39:00Z" name="LoginPage" finished-at="2020-11-09T08:39:12Z" duration-ms="12129" status="FAIL">
+        <test-method signature="EmployeePage()[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC01_EmployeePage@30e619df]" started-at="2020-11-09T16:31:30Z" name="EmployeePage" finished-at="2020-11-09T16:32:30Z" duration-ms="59879" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.atmecs.aspireportalAutomation.utils.Pageactions.sendKeys(Pageactions.java:114)
-at com.atmecs.automationAspireportal.testscript.TC01_LoginPage.LoginPage(TC01_LoginPage.java:43)
+at com.atmecs.automationAspireportal.utils.Pageactions.getText(Pageactions.java:119)
+at com.atmecs.automationAspireportal.testscript.TC01_EmployeePage.EmployeePage(TC01_EmployeePage.java:91)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -148,21 +199,72 @@ at java.base/java.lang.Thread.run(Thread.java:830)
               <![CDATA[Successfully clicked on login button]]>
             </line>
             <line>
-              <![CDATA[No such element found with xpath //span[@class="logo-text"]]]>
+              <![CDATA[Successfully clicked on the Timesheet]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Successfully validated the text : ACTUAL : Timesheet Create or Update Timings EXPECTED :Timesheet Create or Update Timings]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated breadcrum]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected on Select Activity]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Entered mon value]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Entered tue value]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Entered wed value]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Entered thu value]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Entered fri value]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Notes EXPECTED :Notes]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated notes]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Entered notes value]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Notes EXPECTED :Notes]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated add activity]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked on add activity]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected Activity]]>
+            </line>
+            <line>
+              <![CDATA[No such element found with xpath //button[@class="removefield btn btn-sm btn-danger "]]]>
+            </line>
+            <line>
+              <![CDATA[No such element found with xpath //div[@class="tooltip-inner"]]]>
             </line>
             <line>
               <![CDATA[FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details]]>
             </line>
             <line>
-              <![CDATA[IMG : ed7f2d5f-d671-4da4-a10c-ee21a886ac46]]>
+              <![CDATA[IMG : 2f28ac95-2c53-4332-8d62-cfd826b3c796]]>
             </line>
           </reporter-output>
-        </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC01_LoginPage@6216694e]" started-at="2020-11-09T08:39:13Z" name="teardown" finished-at="2020-11-09T08:39:14Z" duration-ms="441" status="PASS">
+        </test-method> <!-- EmployeePage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC01_EmployeePage@30e619df]" started-at="2020-11-09T16:32:30Z" name="teardown" finished-at="2020-11-09T16:32:31Z" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.atmecs.automationAspireportal.testscript.TC01_LoginPage -->
+      </class> <!-- com.atmecs.automationAspireportal.testscript.TC01_EmployeePage -->
     </test> <!-- SampleTest -->
   </suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
 </testng-results>
