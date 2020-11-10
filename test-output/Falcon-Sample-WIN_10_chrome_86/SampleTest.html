@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 09 22:01:13 IST 2020</td>
+<td>Started on:</td><td>Tue Nov 10 20:46:54 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>77 seconds (77975 ms)</td>
+<tr><td>Total time:</td><td>31 seconds (31946 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,46 +75,89 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.atmecs.automationAspireportal.testscript.TC01_EmployeePage.EmployeePage()'><b>EmployeePage</b><br>Test class: com.atmecs.automationAspireportal.testscript.TC01_EmployeePage<br/>
-<a href="#Output-581700012" onClick='toggleBox("Output-581700012", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject.EmployeePage()'><b>EmployeePage</b><br>Test class: com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject<br/>
+<a href="#Output-700690842" onClick='toggleBox("Output-700690842", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-581700012" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-581700012">
+<a href="#Output-700690842" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-700690842">
+STEP#1: Entering the Email<br/>
 Successfully entered Email<br/>
+STEP#2: Entering the Password<br/>
 Successfully entered Password<br/>
+STEP#3: Click on Login button<br/>
 Successfully clicked on login button<br/>
+STEP#4: Clicking on the Timesheet<br/>
 Successfully clicked on the Timesheet<br/>
+STEP#5: Validating the Breadcrum<br/>
 PASS : Successfully validated the text : ACTUAL : Timesheet Create or Update Timings 	EXPECTED :Timesheet Create or Update Timings<br/>
 Successfully validated breadcrum<br/>
+STEP#6: Selecting the activity<br/>
 Successfully selected on Select Activity<br/>
-Successfully Entered mon value<br/>
-Successfully Entered tue value<br/>
-Successfully Entered wed value<br/>
-Successfully Entered thu value<br/>
-Successfully Entered fri value<br/>
+STEP#7: Entering hours to the days<br/>
+Successfully Entered time value<br/>
+Successfully Entered time value<br/>
+Successfully Entered time value<br/>
+Successfully Entered time value<br/>
+Successfully Entered time value<br/>
+STEP#8: Add Notes<br/>
 PASS : Validating the tooltip message is same as expected or not : ACTUAL : Notes 	EXPECTED :Notes<br/>
-Successfully validated notes<br/>
+Successfully validated Notes value<br/>
 Successfully Entered notes value<br/>
-PASS : Validating the tooltip message is same as expected or not : ACTUAL : Notes 	EXPECTED :Notes<br/>
-Successfully validated add activity<br/>
+STEP#9: Add Activity<br/>
+PASS : Validating the tooltip message is same as expected or not : ACTUAL : Add Activity 	EXPECTED :Add Activity<br/>
+Successfully validated Add activity value<br/>
 Successfully clicked on add activity<br/>
+STEP#10: Selecting the second activity<br/>
 Successfully selected Activity<br/>
-No such element found with xpath //button[@class="removefield btn btn-sm btn-danger "]<br/>
-No such element found with xpath //div[@class="tooltip-inner"]<br/>
+STEP#11: Delete Activity<br/>
+PASS : Validating the tooltip message is same as expected or not : ACTUAL : Delete Activity 	EXPECTED :Delete Activity<br/>
+Successfully validated Delete activity value<br/>
+Successfully clicked on add activity<br/>
+STEP#12: Submit button<br/>
+PASS : Validating the tooltip message is same as expected or not : ACTUAL : Timesheet submitted successfully 	EXPECTED :Timesheet submitted successfully<br/>
+Successfully validated submit message<br/>
+STEP#13: Logout button<br/>
+STEP#1: Entering the Email<br/>
+Successfully entered Email<br/>
+STEP#2: Entering the Password<br/>
+Successfully entered Password<br/>
+STEP#3: Click on Login button<br/>
+Successfully clicked on login button<br/>
+STEP#4: Clicking on the Timesheet<br/>
+Successfully clicked on the Timesheet<br/>
+STEP#14: Validating the Breadcrum<br/>
+PASS : Successfully validated the text : ACTUAL : Timesheet Approve Timings 	EXPECTED :Timesheet Approve Timings<br/>
+Successfully validated breadcrum<br/>
+STEP#15: Selecting the project<br/>
+Successfully selected Project<br/>
+STEP#16: Selecting the employee name<br/>
+Successfully selected employee dropdown<br/>
+STEP#17: Clicking reject button under action column<br/>
+FAIL : Validating the tooltip message is same as expected or not expected [Reason for rejection] but found []: ACTUAL :  	EXPECTED :Reason for rejection<br/>
+Successfully validated reject popup message<br/>
+Timesheet rejected successfully<br/>
+PASS : Validating the tooltip message is same as expected or not : ACTUAL : Timesheet rejected successfully 	EXPECTED :Timesheet rejected successfully<br/>
+Successfully validated reject message<br/>
 FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details<br/>
-IMG : 2f28ac95-2c53-4332-8d62-cfd826b3c796<br/>
+IMG : db78a1b7-7882-4037-9de5-a1b86d73c1ef<br/>
 </div>
 </td>
-<td><div><pre>java.lang.NullPointerException
-	at com.atmecs.automationAspireportal.utils.Pageactions.getText(Pageactions.java:119)
-	at com.atmecs.automationAspireportal.testscript.TC01_EmployeePage.EmployeePage(TC01_EmployeePage.java:91)
+<td><div><pre>java.lang.AssertionError: expected [Reason for rejection] but found []
+	at com.atmecs.falcon.automation.verifyresult.VerificationManager.verifyString(VerificationManager.java:250)
+	at com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject.EmployeePage(TC02_Manager_ActionReject.java:85)
 	at com.atmecs.automationAspireportal.runner.TestNGRunner.main(TestNGRunner.java:61)
 	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
 	at java.base/java.lang.Thread.run(Thread.java:830)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace581700012", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace581700012'><pre>java.lang.NullPointerException
-	at com.atmecs.automationAspireportal.utils.Pageactions.getText(Pageactions.java:119)
-	at com.atmecs.automationAspireportal.testscript.TC01_EmployeePage.EmployeePage(TC01_EmployeePage.java:91)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace700690842", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace700690842'><pre>java.lang.AssertionError: expected [Reason for rejection] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.falcon.automation.verifyresult.VerificationManager.verifyString(VerificationManager.java:250)
+	at com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject.EmployeePage(TC02_Manager_ActionReject.java:85)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -145,8 +188,8 @@ IMG : 2f28ac95-2c53-4332-8d62-cfd826b3c796<br/>
 	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
 	at java.base/java.lang.Thread.run(Thread.java:830)
 </pre></div></td>
-<td>59</td>
-<td>com.atmecs.automationAspireportal.testscript.TC01_EmployeePage@30e619df</td></tr>
+<td>16</td>
+<td>com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject@744a5377</td></tr>
 </table><p>
 </body>
 </html>

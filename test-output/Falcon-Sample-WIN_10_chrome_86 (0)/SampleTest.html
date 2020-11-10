@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>TestNG:  SampleTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SampleTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 10 13:59:02 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15550 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.atmecs.automationAspireportal.testscript.TC02_ManagerPage_ActionApprove.ManagerPage()'><b>ManagerPage</b><br>Test class: com.atmecs.automationAspireportal.testscript.TC02_ManagerPage_ActionApprove<br/>
+<a href="#Output-548871338" onClick='toggleBox("Output-548871338", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-548871338" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-548871338">
+Successfully entered Email<br/>
+Successfully entered Password<br/>
+Successfully clicked on login button<br/>
+Successfully clicked on the Timesheet<br/>
+PASS : Successfully validated the text : ACTUAL : Timesheet Approve Timings 	EXPECTED :Timesheet Approve Timings<br/>
+Successfully validated breadcrum<br/>
+Successfully selected Project<br/>
+Successfully selected employee dropdown<br/>
+Successfully clicked on approve button and validating approve message<br/>
+PASS : Validating the tooltip message is same as expected or not : ACTUAL : Approved successfully 	EXPECTED :Approved successfully<br/>
+Successfully validated approved message<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.atmecs.automationAspireportal.testscript.TC02_ManagerPage_ActionApprove@76b9d732</td></tr>
+</table><p>
+</body>
+</html>

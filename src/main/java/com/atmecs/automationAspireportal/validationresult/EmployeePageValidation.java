@@ -26,18 +26,6 @@ public class EmployeePageValidation {
 		//reports=new ExtentReport(browser);
 	}
 	public void validateEmployeeBreadcrum() throws Exception {
-		helper.getDataofRow("Breadcrum", "validate.empbreadcrum.txt",2);
-	}
-	public void validateEmployeeNotes() throws Exception {
-		helper.getDataofRow("Notes value", "validate.tooltip.txt",9);
-
-}
-	public void validateEmployeeaddactvity() throws Exception {
-		helper.getDataofRow("Add activity value", "validate.tooltip.txt",10);
-
-}
-	public void validateEmployeedeleteactvity() throws Exception {
-		helper.getDataofRow("Delete activity value", "validate.tooltip.txt",11);
-
+		helper.getDataofRow("Breadcrum", "validate.breadcrum.txt",2);
 }
 }

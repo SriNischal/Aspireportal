@@ -5,15 +5,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import com.atmecs.automationAspireportal.constant.ProjectBaseConstantPaths;
+import com.atmecs.automationAspireportal.testscript.SampleTestScript;
 import com.atmecs.falcon.automation.ui.selenium.Browser;
+import com.atmecs.falcon.automation.util.reporter.ReportLogService;
+import com.atmecs.falcon.automation.util.reporter.ReportLogServiceImpl;
 
 public class Pageactions {
 	//RandomNumber random = new RandomNumber();
-	LogReport log = new LogReport();
 	ReadLocators read = new ReadLocators();
 	Browser browser = null;
 	ReadDataFromExcel reader = getsheet(ProjectBaseConstantPaths.EXCEL_FILE);
-
+	private ReportLogService report = new ReportLogServiceImpl(SampleTestScript.class);
 	public Pageactions(Browser browser) {
 		this.browser = browser;
 	}
@@ -108,6 +110,11 @@ public class Pageactions {
 		}
 	}
 	
+	public void clear(String element) {
+		WebElement webElement=getLocator(element);
+		webElement.clear();
+	}
+	
 	public void sendKeys(String element,String value) {
 
 		WebElement webelement= getLocator(element);
@@ -130,7 +137,7 @@ public class Pageactions {
 			WebElement webElement = getLocator(element);
 			action.moveToElement(webElement).perform();
 		}catch (Exception exception) {
-			log.info("element is not displayed and enable to mouse hover");
+			report.info("element is not displayed and enable to mouse hover");
 		}
 	}
 	

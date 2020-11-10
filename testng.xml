@@ -4,7 +4,8 @@
 <suite name="CompanySetup">
 
 	<suite-files>
-		<suite-file path="./src/main/resources/suitefile/employeepage.xml" />
+		<!--<suite-file path="./src/main/resources/suitefile/manageractionapprove.xml" />-->
+		<suite-file path="./src/main/resources/suitefile/manageractionreject.xml" />
 	</suite-files>
 
 </suite>

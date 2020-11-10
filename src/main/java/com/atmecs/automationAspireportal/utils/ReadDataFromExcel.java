@@ -30,7 +30,6 @@ public class ReadDataFromExcel {
 	private FileInputStream fileInputStream = null;
 	private FileOutputStream fileOutputStream = null;
 	private String fileExtensionName;
-	LogReport log = new LogReport();
 
 	public void setPath(String path) throws IOException {
 		this.path = path;
@@ -116,11 +115,11 @@ public class ReadDataFromExcel {
 		return value;
 	}
 
-	public Filters getFiltersData(Browser browser) {
-		HashMap<String, String> map = new HashMap<String, String>();
-		map.put(fileExtensionName, path);
-		return null;
-	}
+	/*
+	 * public Filters getFiltersData(Browser browser) { HashMap<String, String> map
+	 * = new HashMap<String, String>(); map.put(fileExtensionName, path); return
+	 * null; }
+	 */
 
 	private String findRow(Sheet sheet, String string2) {
 		for (Row row : sheet)
