@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Falcon-Sample-WIN_10_chrome_86" class="navigator-link ">
-                    <span>C:\Users\srinischal.thiparani\AspirePortalAutomation\automationAspireportal\src\main\resources\suitefile\manageractionreject.xml</span>
+                    <span>C:\Users\srinischal.thiparani\AspirePortalAutomation\automationAspireportal\src\main\resources\suitefile\shifts.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Falcon-Sample-WIN_10_chrome_86">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_86" title="com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject" class="method navigator-link" hash-for-method="EmployeePage">EmployeePage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_86" title="com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage" class="method navigator-link" hash-for-method="Shifts">Shifts</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Falcon-Sample-WIN_10_chrome_86 -->
@@ -120,21 +120,23 @@
           <div class="suite-Falcon-Sample-WIN_10_chrome_86-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject</span>
+              <span class="class-name">com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="EmployeePage">
-                  </a> <!-- EmployeePage -->
-                  <span class="method-name">EmployeePage</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Reason for rejection] but found []
-	at com.atmecs.falcon.automation.verifyresult.VerificationManager.verifyString(VerificationManager.java:250)
-	at com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject.EmployeePage(TC02_Manager_ActionReject.java:85)
+                  <a name="Shifts">
+                  </a> <!-- Shifts -->
+                  <span class="method-name">Shifts</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.atmecs.automationAspireportal.utils.Pageactions.getLocator(Pageactions.java:98)
+	at com.atmecs.automationAspireportal.utils.Pageactions.sendKeys(Pageactions.java:120)
+	at com.atmecs.automationAspireportal.helper.ValidationHelper.selectproject(ValidationHelper.java:78)
+	at com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage.Shifts(TC05_ShiftsPage.java:31)
 	at com.atmecs.automationAspireportal.runner.TestNGRunner.main(TestNGRunner.java:61)
 	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
 	at java.base/java.lang.Thread.run(Thread.java:830)
-... Removed 32 stack frames
+... Removed 26 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -143,7 +145,7 @@
         </div> <!-- panel Falcon-Sample-WIN_10_chrome_86 -->
         <div panel-name="test-xml-Falcon-Sample-WIN_10_chrome_86" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\srinischal.thiparani\AspirePortalAutomation\automationAspireportal\src\main\resources\suitefile\manageractionreject.xml</span>
+            <span class="header-content">C:\Users\srinischal.thiparani\AspirePortalAutomation\automationAspireportal\src\main\resources\suitefile\shifts.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +158,7 @@
   &lt;parameter name=&quot;browserVersion&quot; value=&quot;86&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;SampleTest&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject&quot;/&gt;
+      &lt;class name=&quot;com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- SampleTest --&gt;
 &lt;/suite&gt; &lt;!-- Falcon-Sample-WIN_10_chrome_86 --&gt;
@@ -198,14 +200,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'EmployeePage')
-data.setCell(0, 2, 'com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject')
-data.setCell(0, 3, 16905);
+data.setCell(0, 1, 'Shifts')
+data.setCell(0, 2, 'com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage')
+data.setCell(0, 3, 20247);
 window.suiteTableData['Falcon-Sample-WIN_10_chrome_86']= { tableData: data, tableDiv: 'times-div-Falcon-Sample-WIN_10_chrome_86'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Falcon-Sample-WIN_10_chrome_86">
               </div> <!-- times-div-Falcon-Sample-WIN_10_chrome_86 -->
             </div> <!-- times-div -->
@@ -217,7 +219,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">EmployeePage</span>
+              <span class="reporter-method-name">Shifts</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">STEP#1: Entering the Email</span>
                 <span class="reporter-method-output">Successfully entered Email</span>
@@ -227,58 +229,11 @@ return data;
                 <span class="reporter-method-output">Successfully clicked on login button</span>
                 <span class="reporter-method-output">STEP#4: Clicking on the Timesheet</span>
                 <span class="reporter-method-output">Successfully clicked on the Timesheet</span>
-                <span class="reporter-method-output">STEP#5: Validating the Breadcrum</span>
-                <span class="reporter-method-output">PASS : Successfully validated the text : ACTUAL : Timesheet Create or Update Timings 	EXPECTED :Timesheet Create or Update Timings</span>
-                <span class="reporter-method-output">Successfully validated breadcrum</span>
-                <span class="reporter-method-output">STEP#6: Selecting the activity</span>
-                <span class="reporter-method-output">Successfully selected on Select Activity</span>
-                <span class="reporter-method-output">STEP#7: Entering hours to the days</span>
-                <span class="reporter-method-output">Successfully Entered time value</span>
-                <span class="reporter-method-output">Successfully Entered time value</span>
-                <span class="reporter-method-output">Successfully Entered time value</span>
-                <span class="reporter-method-output">Successfully Entered time value</span>
-                <span class="reporter-method-output">Successfully Entered time value</span>
-                <span class="reporter-method-output">STEP#8: Add Notes</span>
-                <span class="reporter-method-output">PASS : Validating the tooltip message is same as expected or not : ACTUAL : Notes 	EXPECTED :Notes</span>
-                <span class="reporter-method-output">Successfully validated Notes value</span>
-                <span class="reporter-method-output">Successfully Entered notes value</span>
-                <span class="reporter-method-output">STEP#9: Add Activity</span>
-                <span class="reporter-method-output">PASS : Validating the tooltip message is same as expected or not : ACTUAL : Add Activity 	EXPECTED :Add Activity</span>
-                <span class="reporter-method-output">Successfully validated Add activity value</span>
-                <span class="reporter-method-output">Successfully clicked on add activity</span>
-                <span class="reporter-method-output">STEP#10: Selecting the second activity</span>
-                <span class="reporter-method-output">Successfully selected Activity</span>
-                <span class="reporter-method-output">STEP#11: Delete Activity</span>
-                <span class="reporter-method-output">PASS : Validating the tooltip message is same as expected or not : ACTUAL : Delete Activity 	EXPECTED :Delete Activity</span>
-                <span class="reporter-method-output">Successfully validated Delete activity value</span>
-                <span class="reporter-method-output">Successfully clicked on add activity</span>
-                <span class="reporter-method-output">STEP#12: Submit button</span>
-                <span class="reporter-method-output">PASS : Validating the tooltip message is same as expected or not : ACTUAL : Timesheet submitted successfully 	EXPECTED :Timesheet submitted successfully</span>
-                <span class="reporter-method-output">Successfully validated submit message</span>
-                <span class="reporter-method-output">STEP#13: Logout button</span>
-                <span class="reporter-method-output">STEP#1: Entering the Email</span>
-                <span class="reporter-method-output">Successfully entered Email</span>
-                <span class="reporter-method-output">STEP#2: Entering the Password</span>
-                <span class="reporter-method-output">Successfully entered Password</span>
-                <span class="reporter-method-output">STEP#3: Click on Login button</span>
-                <span class="reporter-method-output">Successfully clicked on login button</span>
-                <span class="reporter-method-output">STEP#4: Clicking on the Timesheet</span>
-                <span class="reporter-method-output">Successfully clicked on the Timesheet</span>
-                <span class="reporter-method-output">STEP#14: Validating the Breadcrum</span>
-                <span class="reporter-method-output">PASS : Successfully validated the text : ACTUAL : Timesheet Approve Timings 	EXPECTED :Timesheet Approve Timings</span>
-                <span class="reporter-method-output">Successfully validated breadcrum</span>
-                <span class="reporter-method-output">STEP#15: Selecting the project</span>
-                <span class="reporter-method-output">Successfully selected Project</span>
-                <span class="reporter-method-output">STEP#16: Selecting the employee name</span>
-                <span class="reporter-method-output">Successfully selected employee dropdown</span>
-                <span class="reporter-method-output">STEP#17: Clicking reject button under action column</span>
-                <span class="reporter-method-output">FAIL : Validating the tooltip message is same as expected or not expected [Reason for rejection] but found []: ACTUAL :  	EXPECTED :Reason for rejection</span>
-                <span class="reporter-method-output">Successfully validated reject popup message</span>
-                <span class="reporter-method-output">Timesheet rejected successfully</span>
-                <span class="reporter-method-output">PASS : Validating the tooltip message is same as expected or not : ACTUAL : Timesheet rejected successfully 	EXPECTED :Timesheet rejected successfully</span>
-                <span class="reporter-method-output">Successfully validated reject message</span>
+                <span class="reporter-method-output">Clicking on the Shifts button</span>
+                <span class="reporter-method-output">Successfully clicked on the shifts button</span>
+                <span class="reporter-method-output">Clicking on the project dropdown in shifts page</span>
                 <span class="reporter-method-output">FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details</span>
-                <span class="reporter-method-output">IMG : db78a1b7-7882-4037-9de5-a1b86d73c1ef</span>
+                <span class="reporter-method-output">IMG : 3efcc5b0-5185-4f19-9b4e-f6d9d3df03f9</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -296,7 +251,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">preSetup(WIN, 10, chrome, 86)</span>
                 <span class="method-start">0 ms</span>
@@ -304,12 +259,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">EmployeePage</span>
-                <span class="method-start">13648 ms</span>
+                <span class="method-name">Shifts</span>
+                <span class="method-start">8875 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">31270 ms</span>
+                <span class="method-start">29723 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

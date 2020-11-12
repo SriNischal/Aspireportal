@@ -3155,3 +3155,541 @@
   </test> <!-- SampleTest -->
 </suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
 
+2020-11-11 21:13:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-11 21:13:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable manageractionreject,manager_approve is: manageractionreject,manager_approve
+2020-11-11 21:13:52 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-11 21:13:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-11 21:13:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [manager_approve, manageractionreject]
+
+2020-11-11 21:13:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-11 21:13:52 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-11 21:13:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-11 21:13:53 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC03_Manager_Approve"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-11 21:20:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-11 21:20:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable manageractionreject,manager_approve is: manageractionreject,manager_approve
+2020-11-11 21:20:30 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-11 21:20:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-11 21:20:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [manager_approve, manageractionreject]
+
+2020-11-11 21:20:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-11 21:20:30 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-11 21:20:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-11 21:20:30 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC03_Manager_Approve"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:18:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 15:18:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable manager_reject,manager_approve is: manager_reject,manager_approve
+2020-11-12 15:18:25 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 15:18:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 15:18:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [manager_approve, manager_reject]
+
+2020-11-12 15:18:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:18:25 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC04_Manager_Reject"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:18:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:18:25 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC03_Manager_Approve"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:20:04 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 15:20:04 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable manager_reject,manager_approve is: manager_reject,manager_approve
+2020-11-12 15:20:04 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 15:20:04 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 15:20:04 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [manager_approve, manager_reject]
+
+2020-11-12 15:20:04 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:20:04 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC04_Manager_Reject"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:20:04 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:20:04 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC03_Manager_Approve"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:22:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 15:22:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable manager_reject,manager_approve is: manager_reject,manager_approve
+2020-11-12 15:22:30 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 15:22:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 15:22:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [manager_approve, manager_reject]
+
+2020-11-12 15:22:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:22:30 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC04_Manager_Reject"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:22:30 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:22:30 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC03_Manager_Approve"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:27:01 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 15:27:01 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable manager_reject,manager_approve is: manager_reject,manager_approve
+2020-11-12 15:27:01 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 15:27:01 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 15:27:01 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [manager_approve, manager_reject]
+
+2020-11-12 15:27:01 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:27:01 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC04_Manager_Reject"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:27:01 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:27:01 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC03_Manager_Approve"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:29:34 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 15:29:34 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable manager_reject,manager_approve is: manager_reject,manager_approve
+2020-11-12 15:29:34 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 15:29:35 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 15:29:35 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [manager_approve, manager_reject]
+
+2020-11-12 15:29:35 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:29:35 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC04_Manager_Reject"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:29:35 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:29:35 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC03_Manager_Approve"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:30:36 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 15:30:36 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable manager_reject,manager_approve is: manager_reject,manager_approve
+2020-11-12 15:30:36 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 15:30:36 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 15:30:36 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [manager_approve, manager_reject]
+
+2020-11-12 15:30:36 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:30:36 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC04_Manager_Reject"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 15:30:36 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 15:30:36 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC03_Manager_Approve"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 18:46:53 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 18:46:53 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable shifts is: shifts
+2020-11-12 18:46:53 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 18:46:54 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 18:46:54 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [shifts]
+
+2020-11-12 18:46:54 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 18:46:54 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 18:48:14 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 18:48:14 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable shifts is: shifts
+2020-11-12 18:48:14 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 18:48:14 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 18:48:14 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [shifts]
+
+2020-11-12 18:48:14 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 18:48:14 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 18:52:45 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 18:52:45 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable shifts is: shifts
+2020-11-12 18:52:45 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 18:52:45 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 18:52:45 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [shifts]
+
+2020-11-12 18:52:45 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 18:52:45 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 18:55:41 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 18:55:41 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable shifts is: shifts
+2020-11-12 18:55:41 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 18:55:42 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 18:55:42 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [shifts]
+
+2020-11-12 18:55:42 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 18:55:42 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 19:10:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 19:10:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable shifts is: shifts
+2020-11-12 19:10:31 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 19:10:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 19:10:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [shifts]
+
+2020-11-12 19:10:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 19:10:32 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 19:15:41 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 19:15:41 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable shifts is: shifts
+2020-11-12 19:15:41 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 19:15:41 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 19:15:41 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [shifts]
+
+2020-11-12 19:15:41 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 19:15:41 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 19:29:24 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 19:29:24 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable manager_reject is: manager_reject
+2020-11-12 19:29:24 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 19:29:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 19:29:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [manager_reject]
+
+2020-11-12 19:29:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 19:29:25 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC04_Manager_Reject"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 19:35:44 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 19:35:44 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable manager_reject is: manager_reject
+2020-11-12 19:35:44 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 19:35:44 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 19:35:44 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [manager_reject]
+
+2020-11-12 19:35:44 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 19:35:44 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC04_Manager_Reject"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 19:37:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 19:37:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable manager_reject is: manager_reject
+2020-11-12 19:37:31 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 19:37:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 19:37:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [manager_reject]
+
+2020-11-12 19:37:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 19:37:31 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC04_Manager_Reject"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 19:41:27 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 19:41:27 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable shifts is: shifts
+2020-11-12 19:41:27 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 19:41:28 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 19:41:28 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [shifts]
+
+2020-11-12 19:41:28 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 19:41:28 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+
+2020-11-12 20:01:05 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-11-12 20:01:05 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable shifts is: shifts
+2020-11-12 20:01:05 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86
+2020-11-12 20:01:05 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-11-12 20:01:05 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [shifts]
+
+2020-11-12 20:01:05 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_86
+2020-11-12 20:01:05 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_86">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="86"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
+

@@ -5,7 +5,7 @@
       <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
     </line>
     <line>
-      <![CDATA[INFO: The value found with Environment Module variable manageractionreject is: manageractionreject]]>
+      <![CDATA[INFO: The value found with Environment Module variable shifts is: shifts]]>
     </line>
     <line>
       <![CDATA[The value found with Environment variable WIN_10_chrome_86 is: WIN_10_chrome_86]]>
@@ -15,7 +15,7 @@
 ]]>
     </line>
     <line>
-      <![CDATA[INFO: Modules Selected: [manageractionreject]
+      <![CDATA[INFO: Modules Selected: [shifts]
 ]]>
     </line>
     <line>
@@ -31,7 +31,7 @@
   <parameter name="browserVersion" value="86"/>
   <test thread-count="5" name="SampleTest">
     <classes>
-      <class name="com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject"/>
+      <class name="com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage"/>
     </classes>
   </test> <!-- SampleTest -->
 </suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
@@ -68,168 +68,27 @@
       <![CDATA[Successfully clicked on the Timesheet]]>
     </line>
     <line>
-      <![CDATA[STEP#5: Validating the Breadcrum]]>
+      <![CDATA[Clicking on the Shifts button]]>
     </line>
     <line>
-      <![CDATA[PASS : Successfully validated the text : ACTUAL : Timesheet Create or Update Timings EXPECTED :Timesheet Create or Update Timings]]>
+      <![CDATA[Successfully clicked on the shifts button]]>
     </line>
     <line>
-      <![CDATA[Successfully validated breadcrum]]>
-    </line>
-    <line>
-      <![CDATA[STEP#6: Selecting the activity]]>
-    </line>
-    <line>
-      <![CDATA[Successfully selected on Select Activity]]>
-    </line>
-    <line>
-      <![CDATA[STEP#7: Entering hours to the days]]>
-    </line>
-    <line>
-      <![CDATA[Successfully Entered time value]]>
-    </line>
-    <line>
-      <![CDATA[Successfully Entered time value]]>
-    </line>
-    <line>
-      <![CDATA[Successfully Entered time value]]>
-    </line>
-    <line>
-      <![CDATA[Successfully Entered time value]]>
-    </line>
-    <line>
-      <![CDATA[Successfully Entered time value]]>
-    </line>
-    <line>
-      <![CDATA[STEP#8: Add Notes]]>
-    </line>
-    <line>
-      <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Notes EXPECTED :Notes]]>
-    </line>
-    <line>
-      <![CDATA[Successfully validated Notes value]]>
-    </line>
-    <line>
-      <![CDATA[Successfully Entered notes value]]>
-    </line>
-    <line>
-      <![CDATA[STEP#9: Add Activity]]>
-    </line>
-    <line>
-      <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Add Activity EXPECTED :Add Activity]]>
-    </line>
-    <line>
-      <![CDATA[Successfully validated Add activity value]]>
-    </line>
-    <line>
-      <![CDATA[Successfully clicked on add activity]]>
-    </line>
-    <line>
-      <![CDATA[STEP#10: Selecting the second activity]]>
-    </line>
-    <line>
-      <![CDATA[Successfully selected Activity]]>
-    </line>
-    <line>
-      <![CDATA[STEP#11: Delete Activity]]>
-    </line>
-    <line>
-      <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Delete Activity EXPECTED :Delete Activity]]>
-    </line>
-    <line>
-      <![CDATA[Successfully validated Delete activity value]]>
-    </line>
-    <line>
-      <![CDATA[Successfully clicked on add activity]]>
-    </line>
-    <line>
-      <![CDATA[STEP#12: Submit button]]>
-    </line>
-    <line>
-      <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Timesheet submitted successfully EXPECTED :Timesheet submitted successfully]]>
-    </line>
-    <line>
-      <![CDATA[Successfully validated submit message]]>
-    </line>
-    <line>
-      <![CDATA[STEP#13: Logout button]]>
-    </line>
-    <line>
-      <![CDATA[STEP#1: Entering the Email]]>
-    </line>
-    <line>
-      <![CDATA[Successfully entered Email]]>
-    </line>
-    <line>
-      <![CDATA[STEP#2: Entering the Password]]>
-    </line>
-    <line>
-      <![CDATA[Successfully entered Password]]>
-    </line>
-    <line>
-      <![CDATA[STEP#3: Click on Login button]]>
-    </line>
-    <line>
-      <![CDATA[Successfully clicked on login button]]>
-    </line>
-    <line>
-      <![CDATA[STEP#4: Clicking on the Timesheet]]>
-    </line>
-    <line>
-      <![CDATA[Successfully clicked on the Timesheet]]>
-    </line>
-    <line>
-      <![CDATA[STEP#14: Validating the Breadcrum]]>
-    </line>
-    <line>
-      <![CDATA[PASS : Successfully validated the text : ACTUAL : Timesheet Approve Timings EXPECTED :Timesheet Approve Timings]]>
-    </line>
-    <line>
-      <![CDATA[Successfully validated breadcrum]]>
-    </line>
-    <line>
-      <![CDATA[STEP#15: Selecting the project]]>
-    </line>
-    <line>
-      <![CDATA[Successfully selected Project]]>
-    </line>
-    <line>
-      <![CDATA[STEP#16: Selecting the employee name]]>
-    </line>
-    <line>
-      <![CDATA[Successfully selected employee dropdown]]>
-    </line>
-    <line>
-      <![CDATA[STEP#17: Clicking reject button under action column]]>
-    </line>
-    <line>
-      <![CDATA[FAIL : Validating the tooltip message is same as expected or not expected [Reason for rejection] but found []: ACTUAL :  EXPECTED :Reason for rejection]]>
-    </line>
-    <line>
-      <![CDATA[Successfully validated reject popup message]]>
-    </line>
-    <line>
-      <![CDATA[Timesheet rejected successfully]]>
-    </line>
-    <line>
-      <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Timesheet rejected successfully EXPECTED :Timesheet rejected successfully]]>
-    </line>
-    <line>
-      <![CDATA[Successfully validated reject message]]>
+      <![CDATA[Clicking on the project dropdown in shifts page]]>
     </line>
     <line>
       <![CDATA[FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details]]>
     </line>
     <line>
-      <![CDATA[IMG : db78a1b7-7882-4037-9de5-a1b86d73c1ef]]>
+      <![CDATA[IMG : 3efcc5b0-5185-4f19-9b4e-f6d9d3df03f9]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-11-10T15:16:54Z" name="Falcon-Sample-WIN_10_chrome_86" finished-at="2020-11-10T15:17:26Z" duration-ms="31946">
+  <suite started-at="2020-11-12T14:31:07Z" name="Falcon-Sample-WIN_10_chrome_86" finished-at="2020-11-12T14:31:37Z" duration-ms="30396">
     <groups>
     </groups>
-    <test started-at="2020-11-10T15:16:54Z" name="SampleTest" finished-at="2020-11-10T15:17:26Z" duration-ms="31946">
-      <class name="com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject">
-        <test-method is-config="true" signature="preSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject@744a5377]" started-at="2020-11-10T15:16:54Z" name="preSetup" finished-at="2020-11-10T15:17:08Z" duration-ms="13648" status="PASS">
+    <test started-at="2020-11-12T14:31:07Z" name="SampleTest" finished-at="2020-11-12T14:31:37Z" duration-ms="30396">
+      <class name="com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage">
+        <test-method is-config="true" signature="preSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage@7f658b9a]" started-at="2020-11-12T14:31:07Z" name="preSetup" finished-at="2020-11-12T14:31:16Z" duration-ms="8874" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -261,21 +120,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="EmployeePage()[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject@744a5377]" started-at="2020-11-10T15:17:08Z" name="EmployeePage" finished-at="2020-11-10T15:17:24Z" duration-ms="16905" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Reason for rejection] but found []]]>
-            </message>
+        <test-method signature="Shifts()[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage@7f658b9a]" started-at="2020-11-12T14:31:16Z" name="Shifts" finished-at="2020-11-12T14:31:36Z" duration-ms="20247" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Reason for rejection] but found []
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.atmecs.falcon.automation.verifyresult.VerificationManager.verifyString(VerificationManager.java:250)
-at com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject.EmployeePage(TC02_Manager_ActionReject.java:85)
+              <![CDATA[java.lang.NullPointerException
+at com.atmecs.automationAspireportal.utils.Pageactions.getLocator(Pageactions.java:98)
+at com.atmecs.automationAspireportal.utils.Pageactions.sendKeys(Pageactions.java:120)
+at com.atmecs.automationAspireportal.helper.ValidationHelper.selectproject(ValidationHelper.java:78)
+at com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage.Shifts(TC05_ShiftsPage.java:31)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -307,7 +159,7 @@ at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
 at java.base/java.lang.Thread.run(Thread.java:830)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[STEP#1: Entering the Email]]>
@@ -334,168 +186,27 @@ at java.base/java.lang.Thread.run(Thread.java:830)
               <![CDATA[Successfully clicked on the Timesheet]]>
             </line>
             <line>
-              <![CDATA[STEP#5: Validating the Breadcrum]]>
+              <![CDATA[Clicking on the Shifts button]]>
             </line>
             <line>
-              <![CDATA[PASS : Successfully validated the text : ACTUAL : Timesheet Create or Update Timings EXPECTED :Timesheet Create or Update Timings]]>
+              <![CDATA[Successfully clicked on the shifts button]]>
             </line>
             <line>
-              <![CDATA[Successfully validated breadcrum]]>
-            </line>
-            <line>
-              <![CDATA[STEP#6: Selecting the activity]]>
-            </line>
-            <line>
-              <![CDATA[Successfully selected on Select Activity]]>
-            </line>
-            <line>
-              <![CDATA[STEP#7: Entering hours to the days]]>
-            </line>
-            <line>
-              <![CDATA[Successfully Entered time value]]>
-            </line>
-            <line>
-              <![CDATA[Successfully Entered time value]]>
-            </line>
-            <line>
-              <![CDATA[Successfully Entered time value]]>
-            </line>
-            <line>
-              <![CDATA[Successfully Entered time value]]>
-            </line>
-            <line>
-              <![CDATA[Successfully Entered time value]]>
-            </line>
-            <line>
-              <![CDATA[STEP#8: Add Notes]]>
-            </line>
-            <line>
-              <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Notes EXPECTED :Notes]]>
-            </line>
-            <line>
-              <![CDATA[Successfully validated Notes value]]>
-            </line>
-            <line>
-              <![CDATA[Successfully Entered notes value]]>
-            </line>
-            <line>
-              <![CDATA[STEP#9: Add Activity]]>
-            </line>
-            <line>
-              <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Add Activity EXPECTED :Add Activity]]>
-            </line>
-            <line>
-              <![CDATA[Successfully validated Add activity value]]>
-            </line>
-            <line>
-              <![CDATA[Successfully clicked on add activity]]>
-            </line>
-            <line>
-              <![CDATA[STEP#10: Selecting the second activity]]>
-            </line>
-            <line>
-              <![CDATA[Successfully selected Activity]]>
-            </line>
-            <line>
-              <![CDATA[STEP#11: Delete Activity]]>
-            </line>
-            <line>
-              <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Delete Activity EXPECTED :Delete Activity]]>
-            </line>
-            <line>
-              <![CDATA[Successfully validated Delete activity value]]>
-            </line>
-            <line>
-              <![CDATA[Successfully clicked on add activity]]>
-            </line>
-            <line>
-              <![CDATA[STEP#12: Submit button]]>
-            </line>
-            <line>
-              <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Timesheet submitted successfully EXPECTED :Timesheet submitted successfully]]>
-            </line>
-            <line>
-              <![CDATA[Successfully validated submit message]]>
-            </line>
-            <line>
-              <![CDATA[STEP#13: Logout button]]>
-            </line>
-            <line>
-              <![CDATA[STEP#1: Entering the Email]]>
-            </line>
-            <line>
-              <![CDATA[Successfully entered Email]]>
-            </line>
-            <line>
-              <![CDATA[STEP#2: Entering the Password]]>
-            </line>
-            <line>
-              <![CDATA[Successfully entered Password]]>
-            </line>
-            <line>
-              <![CDATA[STEP#3: Click on Login button]]>
-            </line>
-            <line>
-              <![CDATA[Successfully clicked on login button]]>
-            </line>
-            <line>
-              <![CDATA[STEP#4: Clicking on the Timesheet]]>
-            </line>
-            <line>
-              <![CDATA[Successfully clicked on the Timesheet]]>
-            </line>
-            <line>
-              <![CDATA[STEP#14: Validating the Breadcrum]]>
-            </line>
-            <line>
-              <![CDATA[PASS : Successfully validated the text : ACTUAL : Timesheet Approve Timings EXPECTED :Timesheet Approve Timings]]>
-            </line>
-            <line>
-              <![CDATA[Successfully validated breadcrum]]>
-            </line>
-            <line>
-              <![CDATA[STEP#15: Selecting the project]]>
-            </line>
-            <line>
-              <![CDATA[Successfully selected Project]]>
-            </line>
-            <line>
-              <![CDATA[STEP#16: Selecting the employee name]]>
-            </line>
-            <line>
-              <![CDATA[Successfully selected employee dropdown]]>
-            </line>
-            <line>
-              <![CDATA[STEP#17: Clicking reject button under action column]]>
-            </line>
-            <line>
-              <![CDATA[FAIL : Validating the tooltip message is same as expected or not expected [Reason for rejection] but found []: ACTUAL :  EXPECTED :Reason for rejection]]>
-            </line>
-            <line>
-              <![CDATA[Successfully validated reject popup message]]>
-            </line>
-            <line>
-              <![CDATA[Timesheet rejected successfully]]>
-            </line>
-            <line>
-              <![CDATA[PASS : Validating the tooltip message is same as expected or not : ACTUAL : Timesheet rejected successfully EXPECTED :Timesheet rejected successfully]]>
-            </line>
-            <line>
-              <![CDATA[Successfully validated reject message]]>
+              <![CDATA[Clicking on the project dropdown in shifts page]]>
             </line>
             <line>
               <![CDATA[FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details]]>
             </line>
             <line>
-              <![CDATA[IMG : db78a1b7-7882-4037-9de5-a1b86d73c1ef]]>
+              <![CDATA[IMG : 3efcc5b0-5185-4f19-9b4e-f6d9d3df03f9]]>
             </line>
           </reporter-output>
-        </test-method> <!-- EmployeePage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject@744a5377]" started-at="2020-11-10T15:17:25Z" name="teardown" finished-at="2020-11-10T15:17:26Z" duration-ms="653" status="PASS">
+        </test-method> <!-- Shifts -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage@7f658b9a]" started-at="2020-11-12T14:31:36Z" name="teardown" finished-at="2020-11-12T14:31:37Z" duration-ms="642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.atmecs.automationAspireportal.testscript.TC02_Manager_ActionReject -->
+      </class> <!-- com.atmecs.automationAspireportal.testscript.TC05_ShiftsPage -->
     </test> <!-- SampleTest -->
   </suite> <!-- Falcon-Sample-WIN_10_chrome_86 -->
 </testng-results>

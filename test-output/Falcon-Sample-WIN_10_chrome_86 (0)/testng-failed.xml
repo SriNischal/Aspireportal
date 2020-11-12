@@ -7,13 +7,13 @@
   <parameter name="browserVersion" value="86"/>
   <test thread-count="5" name="SampleTest(failed)">
     <classes>
-      <class name="com.atmecs.automationAspireportal.testscript.TC02_ManagerPage_ActionApprove">
+      <class name="com.atmecs.automationAspireportal.testscript.TC03_Manager_Approve">
         <methods>
+          <include name="Manager_Approve"/>
           <include name="teardown"/>
           <include name="preSetup"/>
-          <include name="ManagerPage"/>
         </methods>
-      </class> <!-- com.atmecs.automationAspireportal.testscript.TC02_ManagerPage_ActionApprove -->
+      </class> <!-- com.atmecs.automationAspireportal.testscript.TC03_Manager_Approve -->
     </classes>
   </test> <!-- SampleTest(failed) -->
 </suite> <!-- Failed suite [Falcon-Sample-WIN_10_chrome_86 (0)] -->

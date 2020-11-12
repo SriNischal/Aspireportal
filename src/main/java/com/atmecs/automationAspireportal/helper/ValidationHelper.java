@@ -80,11 +80,17 @@ public class ValidationHelper {
 	    report.info("Successfully selected Project");
 	}
 	
-	public void approvebutton(String expectedtooltipmessage, String validationMessage,String message) throws Exception {
+	public void approve_rejectbutton(String expectedtooltipmessage, String validationMessage,String message) throws Exception {
 		page.clickOnElement(ReadLocators.getPropertyvalue(validationMessage, ProjectBaseConstantPaths.LOCATORS_FILE));
 	    actualmessage=page.getText(ReadLocators.getPropertyvalue(message, ProjectBaseConstantPaths.LOCATORS_FILE));
         expectedmessage=page.getdata_fromExcel(mansheetname, columnname, expectedtooltipmessage);
         Verify.verifyString(actualmessage, expectedmessage, "Validating the tooltip message is same as expected or not");
         report.info("Successfully clicked on approve button and validating "+ expectedtooltipmessage);
+	}
+	
+	public void selectemployee(String validationMessage,String activity) throws Exception {
+		page.clickOnElement(ReadLocators.getPropertyvalue(validationMessage, ProjectBaseConstantPaths.LOCATORS_FILE));
+	    page.clickOnElement(ReadLocators.getPropertyvalue(activity, ProjectBaseConstantPaths.LOCATORS_FILE));
+	    report.info("Successfully selected Project");
 	}
 }

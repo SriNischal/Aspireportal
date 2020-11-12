@@ -3,6 +3,7 @@ package com.atmecs.automationAspireportal.testscript;
 import org.testng.annotations.Test;
 
 import com.atmecs.automationAspireportal.constant.ProjectBaseConstantPaths;
+import com.atmecs.automationAspireportal.helper.EmployeeHelper;
 import com.atmecs.automationAspireportal.helper.EmployeeloginHelper;
 import com.atmecs.automationAspireportal.helper.ManagerloginHelper;
 import com.atmecs.automationAspireportal.helper.ValidationHelper;
@@ -21,56 +22,21 @@ public class TC02_Manager_ActionReject extends TestSuiteBase{
 	LoadProperties load = new LoadProperties();
 	String actualtooltipmessage;
 	String expectedtooltipmessage;
-	String sheetname="Employee";
+	String sheetname="Manager";
 	String columnname="Validation Text";
 	private ReportLogService report = new ReportLogServiceImpl(SampleTestScript.class);
 	
 	@Test
-	public void EmployeePage() throws Exception {
-		EmployeePageValidation validate=new EmployeePageValidation(browser);
+	public void Manager_Action_Reject() throws Exception {
 		Pageactions page=new Pageactions(browser);
 		ManagerPageValidation validation=new ManagerPageValidation(browser);
 		ManagerloginHelper manahelper=new ManagerloginHelper(browser);
-	    EmployeeloginHelper emphelper=new EmployeeloginHelper(browser);
-	    emphelper.LoginPage();
 	    ValidationHelper helper=new ValidationHelper(browser);
-	 report.info("STEP#5: Validating the Breadcrum");
-		validate.validateEmployeeBreadcrum();
-		report.info("Successfully validated breadcrum");
-		//page.clickOnElement(ReadLocators.getPropertyvalue("loc.copy.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-	report.info("STEP#6: Selecting the activity");
-	    helper.selectactivity("Activity 1", "loc.activity.drpdwn", "loc.actvity.ddn", "loc.activityvalue.ddn");
-	report.info("STEP#7: Entering hours to the days");	
-	    helper.enterDatatoRow("Monday value", "loc.monvalue.txt");
-	    helper.enterDatatoRow("Tuesday value", "loc.tuevalue.txt");
-	    helper.enterDatatoRow("Wednesday value", "loc.wedvalue.txt");
-	    helper.enterDatatoRow("Thursday value", "loc.thuvalue.txt");
-	    helper.enterDatatoRow("Friday value", "loc.frivalue.txt");
-	 report.info("STEP#8: Add Notes");
-	    helper.tooltipmessage("Notes value", "loc.notestooltip.txt", "Notes text", "loc.textarea.txt","validate.notestooltip.txt");
-		page.clickOnElement(ReadLocators.getPropertyvalue("loc.approvenotes.btn", ProjectBaseConstantPaths.LOCATORS_FILE)); 
-	report.info("STEP#9: Add Activity");	
-	    helper.activity("Add activity value", "loc.addactvity.btn", "validate.addtooltip.txt");
-	report.info("STEP#10: Selecting the second activity");	
-	    page.clickOnElement(ReadLocators.getPropertyvalue("loc.activity2.drpdwn", ProjectBaseConstantPaths.LOCATORS_FILE));
-	    String activity2=page.getdata_fromExcel("Employee", "Validation Text", "Activity 2");
-        page.sendKeys(ReadLocators.getPropertyvalue("loc.actvity.ddn", ProjectBaseConstantPaths.LOCATORS_FILE), activity2);
-        page.clickOnElement(ReadLocators.getPropertyvalue("loc.activityvalue.ddn", ProjectBaseConstantPaths.LOCATORS_FILE));
-  	    report.info("Successfully selected Activity");
-	report.info("STEP#11: Delete Activity");
-	    helper.activity("Delete activity value", "loc.deleteactivity.btn", "validate.deletetooltip.txt");
-	report.info("STEP#12: Submit button");
-	    page.clickOnElement(ReadLocators.getPropertyvalue("loc.submit.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-	    actualtooltipmessage=page.getText(ReadLocators.getPropertyvalue("validate.submitmessage.txt", ProjectBaseConstantPaths.LOCATORS_FILE));
-        expectedtooltipmessage=page.getdata_fromExcel(sheetname, columnname, "Submit message");
-        Verify.verifyString(actualtooltipmessage, expectedtooltipmessage, "Validating the tooltip message is same as expected or not");
-		report.info("Successfully validated submit message");
-	report.info("STEP#13: Logout button");
-	    page.clickOnElement(ReadLocators.getPropertyvalue("loc.logout.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-	    page.clickOnElement(ReadLocators.getPropertyvalue("loc.logouttext.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
 	    
-	    manahelper.LoginPage();
-	report.info("STEP#14: Validating the Breadcrum");
+	    EmployeeHelper employeeHelper=new EmployeeHelper(browser);
+	  
+	    employeeHelper.employeeHelper();
+	    manahelper.LoginPage();	report.info("STEP#14: Validating the Breadcrum");
 		validation.validateManagerBreadcrum();
 		report.info("Successfully validated breadcrum");
 	report.info("STEP#15: Selecting the project");
@@ -80,18 +46,9 @@ public class TC02_Manager_ActionReject extends TestSuiteBase{
 	    report.info("Successfully selected employee dropdown");
 	report.info("STEP#17: Clicking reject button under action column");
 	    page.clickOnElement(ReadLocators.getPropertyvalue("loc.actionreject.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-	    String actualmodal_title=page.getText(ReadLocators.getPropertyvalue("loc.rejectpopup.txt", ProjectBaseConstantPaths.LOCATORS_FILE));
-	    String expectedmodal_title=page.getdata_fromExcel("Manager", "Validation Text", "Reject popup");
-	    Verify.verifyString(actualmodal_title, expectedmodal_title, "Validating the tooltip message is same as expected or not");
-		report.info("Successfully validated reject popup message");
-		String rejectpopuptext=page.getdata_fromExcel("Manager", "Validation Text", "Reject message");
+		String rejectpopuptext=page.getdata_fromExcel(sheetname, columnname, "Reject message");
 		page.sendKeys(ReadLocators.getPropertyvalue("loc.rejecttextarea.txt", ProjectBaseConstantPaths.LOCATORS_FILE), rejectpopuptext);
-		page.clickOnElement(ReadLocators.getPropertyvalue("loc.rejectbutton.txt", ProjectBaseConstantPaths.LOCATORS_FILE));
-		String actualmessage=page.getText(ReadLocators.getPropertyvalue("validate.rejectmessage.txt", ProjectBaseConstantPaths.LOCATORS_FILE));
-		report.info(actualmessage);
-		String expectedmessage=page.getdata_fromExcel("Manager", "Validation Text", "Rejected message");
-		Verify.verifyString(actualmessage, expectedmessage, "Validating the tooltip message is same as expected or not");
-		report.info("Successfully validated reject message");
+		helper.approve_rejectbutton("Rejected message", "loc.rejectbutton.txt", "validate.rejectmessage.txt");
 	}
 }
 
