@@ -19,6 +19,7 @@ public class EmployeeHelper {
 	LoadProperties load = new LoadProperties();
 	String actualtooltipmessage;
 	String expectedtooltipmessage;
+	String mansheetname="Manager";
 	String sheetname="Employee";
 	String columnname="Validation Text";
 	private ReportLogService report = new ReportLogServiceImpl(SampleTestScript.class);
@@ -31,8 +32,6 @@ public class EmployeeHelper {
 	public void employeeHelper() throws Exception {
 		EmployeePageValidation validate=new EmployeePageValidation(browser);
 		Pageactions page=new Pageactions(browser);
-	    EmployeeloginHelper emphelper=new EmployeeloginHelper(browser);
-	  emphelper.LoginPage();
 	    ValidationHelper helper=new ValidationHelper(browser);
 	 report.info("STEP#5: Validating the Breadcrum");
 		validate.validateEmployeeBreadcrum();
@@ -65,8 +64,5 @@ public class EmployeeHelper {
       expectedtooltipmessage=page.getdata_fromExcel(sheetname, columnname, "Submit message");
       Verify.verifyString(actualtooltipmessage, expectedtooltipmessage, "Validating the tooltip message is same as expected or not");
 		report.info("Successfully validated submit message");
-	report.info("STEP#13: Logout button");
-	    page.clickOnElement(ReadLocators.getPropertyvalue("loc.logout.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-	    page.clickOnElement(ReadLocators.getPropertyvalue("loc.logouttext.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
 }
 }

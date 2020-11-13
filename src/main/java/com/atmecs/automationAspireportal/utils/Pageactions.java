@@ -141,6 +141,17 @@ public class Pageactions {
 		}
 	}
 	
+	public String mouseOvering(String element) {
+		try {
+			Actions action = new Actions(browser.getDriver());
+			WebElement webElement = getLocator(element);
+			action.moveToElement(webElement).perform();
+		}catch (Exception exception) {
+			report.info("element is not displayed and enable to mouse hover");
+		}
+		return element;
+	}
+	
 
 	/*
 	 * public String randomnumber(String locator) throws Exception { int

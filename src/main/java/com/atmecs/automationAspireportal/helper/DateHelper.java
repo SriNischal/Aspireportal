@@ -21,14 +21,14 @@ public class DateHelper {
 		this.browser = browser;
 		page=new Pageactions(browser);
 	}
-	public void selectdates() throws IOException{
+	public void selectdates(String startdate,String enddate) throws IOException{
 	Pageactions page=new Pageactions(browser);
 	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 	LocalDateTime now = LocalDateTime.now();
 	System.out.println(dtf.format(now));
 	System.out.println(dtf.format(now.plusDays(10)));
-	page.sendKeys(ReadLocators.getPropertyvalue("loc.startDate.input", ProjectBaseConstantPaths.LOCATORS_FILE),dtf.format(now));
-	page.sendKeys(ReadLocators.getPropertyvalue("loc.endDate.input", ProjectBaseConstantPaths.LOCATORS_FILE), dtf.format(now.plusDays(13)));
+	page.sendKeys(ReadLocators.getPropertyvalue(startdate, ProjectBaseConstantPaths.LOCATORS_FILE),dtf.format(now));
+	page.sendKeys(ReadLocators.getPropertyvalue(enddate, ProjectBaseConstantPaths.LOCATORS_FILE), dtf.format(now.plusDays(13)));
 }
 	
 	public void selectshift(String validationMessage,String activity) throws Exception {

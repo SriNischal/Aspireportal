@@ -43,6 +43,7 @@ public class ValidationHelper {
 	    report.info("Successfully Entered time value");
 		
 	}
+
 	
 	public void tooltipmessage(String expectedtooltipmessage, String validationMessage,String value,String textvalue,String message) throws Exception {
 		page.mouseOver(ReadLocators.getPropertyvalue(validationMessage, ProjectBaseConstantPaths.LOCATORS_FILE));
@@ -92,5 +93,48 @@ public class ValidationHelper {
 		page.clickOnElement(ReadLocators.getPropertyvalue(validationMessage, ProjectBaseConstantPaths.LOCATORS_FILE));
 	    page.clickOnElement(ReadLocators.getPropertyvalue(activity, ProjectBaseConstantPaths.LOCATORS_FILE));
 	    report.info("Successfully selected Project");
+	}
+	
+	public void previousweekpendingmessage() throws Exception {
+		EmployeeHelper employeeHelper=new EmployeeHelper(browser);
+		EmployeeloginHelper emplogin=new EmployeeloginHelper(browser);
+		emplogin.LoginPage();
+		report.info("Clicking on the Timesheet");
+		page.clickOnElement(ReadLocators.getPropertyvalue("loc.timesheet.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
+		report.info("Successfully clicked on the Timesheet");
+		String pagetitle = page.getText(ReadLocators.getPropertyvalue("loc.previousweek.txt", ProjectBaseConstantPaths.LOCATORS_FILE));  
+		String previous=page.getdata_fromExcel(mansheetname, columnname, "Previous Week");
+	    if(pagetitle==previous) {
+	    employeeHelper.employeeHelper();
+	    report.info("Logout button");
+	    page.clickOnElement(ReadLocators.getPropertyvalue("loc.logout.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
+	    page.clickOnElement(ReadLocators.getPropertyvalue("loc.logouttext.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
+	    }
+	    else {
+	    report.info("Click on the previous button");
+			page.clickOnElement(ReadLocators.getPropertyvalue("loc.previousbutton.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
+		report.info("Successfully clicked on the previous button");	
+		    employeeHelper.employeeHelper();
+		report.info("Click on the next button");
+			page.clickOnElement(ReadLocators.getPropertyvalue("loc.nextbutton.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
+		report.info("Successfully clicked on the next button");	
+		    employeeHelper.employeeHelper();
+		report.info("Logout button");
+		    page.clickOnElement(ReadLocators.getPropertyvalue("loc.logout.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
+		    page.clickOnElement(ReadLocators.getPropertyvalue("loc.logouttext.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
+	    }
+	}
+	public void breadcrum(String value) throws Exception {
+		page.getText(ReadLocators.getPropertyvalue(value, ProjectBaseConstantPaths.LOCATORS_FILE));
+	}
+	
+	public void clickonelement(String value) throws Exception {
+		page.getText(ReadLocators.getPropertyvalue(value, ProjectBaseConstantPaths.LOCATORS_FILE));
+	}
+	
+	public void reject(String locator,String locatorvalue) throws Exception {
+		page.clickOnElement(ReadLocators.getPropertyvalue(locator, ProjectBaseConstantPaths.LOCATORS_FILE));
+		String rejectpopuptext=page.getdata_fromExcel(mansheetname, columnname, "Reject message");
+		page.sendKeys(ReadLocators.getPropertyvalue(locatorvalue, ProjectBaseConstantPaths.LOCATORS_FILE), rejectpopuptext);
 	}
 }
