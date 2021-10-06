@@ -14,7 +14,7 @@
 		<exec.maven.plugin>1.5.0</exec.maven.plugin>
 		<maven.compiler.plugin>3.5</maven.compiler.plugin>
 		<falcon.ui.version>3.0-alpha</falcon.ui.version>
-		<release.repo.download.url>${falcon.repo.url}</release.repo.download.url>
+		<release.repo.download.url>http://10.10.10.150:8081/nexus/content/repositories/falcon-dev/</release.repo.download.url>
 		<java.source.version>1.8</java.source.version>
 		<java.target.version>1.8</java.target.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
